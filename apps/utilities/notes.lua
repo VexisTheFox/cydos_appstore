@@ -11,7 +11,8 @@ local function loadNotes()
         local raw = file.read(FILE_PATH)
         if raw and #raw > 0 then
             lines = {}
-            for s in string.gmatch(raw, "[^
+            for s in string.gmatch(raw, "[^
+
 ]+") do
                 table.insert(lines, s)
             end
@@ -20,8 +21,7 @@ local function loadNotes()
 end
 
 local function saveNotes()
-    file.write(FILE_PATH, table.concat(lines, "
-"))
+    file.write(FILE_PATH, table.concat(lines, "\n"))
 end
 
 local function drawUI()

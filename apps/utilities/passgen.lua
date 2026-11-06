@@ -65,8 +65,7 @@ while true do
             if tx < 120 then
                 genNow(); drawUI()
             else
-                file.write("/apps/vault_key.txt", "PASS: " .. curPass .. "
-PIN: " .. curPin)
+                file.write("/apps/vault_key.txt", "PASS: " .. curPass .. "\nPIN: " .. curPin)
                 status = "Saved to /apps/vault_key.txt!"
                 drawUI()
             end
