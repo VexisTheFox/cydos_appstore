@@ -1,0 +1,108 @@
+{
+  "store_name": "CYD OS Official App Store",
+  "repository": "https://github.com/VexisTheFox/cydos_appstore",
+  "categories": [
+    {
+      "id": "internet",
+      "name": "Internet & Network",
+      "folder": "apps/internet"
+    },
+    {
+      "id": "games",
+      "name": "Games & Arcade",
+      "folder": "apps/games"
+    },
+    {
+      "id": "media",
+      "name": "Audio & Media",
+      "folder": "apps/media"
+    },
+    {
+      "id": "utilities",
+      "name": "System & Utilities",
+      "folder": "apps/utilities"
+    }
+  ],
+  "apps": [
+    {
+      "id": "weather",
+      "title": "Weather",
+      "category": "Internet",
+      "description": "Open-Meteo live temp & wind",
+      "path": "apps/internet/weather.lua",
+      "url": "https://raw.githubusercontent.com/VexisTheFox/cydos_appstore/main/apps/internet/weather.lua",
+      "icon_bg": "0x0276",
+      "icon_b64": "APDwAAw/wwAD//wAP/9VAAP1VVAPVVVUAVVVVQVVVVUFVVVVAVVVVAAAAAAAoKCgAoKCgAKCgoAAAAAAAAAAAA=="
+    },
+    {
+      "id": "nettools",
+      "title": "NetTools",
+      "category": "Internet",
+      "description": "TCP Ping, WAN IP & NTP test",
+      "path": "apps/internet/nettools.lua",
+      "url": "https://raw.githubusercontent.com/VexisTheFox/cydos_appstore/main/apps/internet/nettools.lua",
+      "icon_bg": "0x0352",
+      "icon_b64": "ACqoAAKBQoAIJBggIIQSCCIQBIiFV9VShB/0EpVf9VaVX/VWhB/0EoVX1VIiEASIIIQSCAgkGCACgUKAACqoAA=="
+    },
+    {
+      "id": "flappy",
+      "title": "Flappy CYD",
+      "category": "Games",
+      "description": "Smooth 35 FPS arcade game",
+      "path": "apps/games/flappy.lua",
+      "url": "https://raw.githubusercontent.com/VexisTheFox/cydos_appstore/main/apps/games/flappy.lua",
+      "icon_bg": "0x1386",
+      "icon_b64": "AAAAAAAP/AAA//UAA//WQA9X1kANVfUADVX/qA9X/qoD//+oAP//AAAP8AAAAAAAqqqqqgAAAAAAAAAAAAAAAA=="
+    },
+    {
+      "id": "game2048",
+      "title": "2048 Game",
+      "category": "Games",
+      "description": "Classic 4x4 2048 tile puzzle",
+      "path": "apps/games/game2048.lua",
+      "url": "https://raw.githubusercontent.com/VexisTheFox/cydos_appstore/main/apps/games/game2048.lua",
+      "icon_bg": "0x5180",
+      "icon_b64": "P/wqqP//qqr1X6Qa8B+kGvVfpVr0D6Aa9V+gGj/8KqgqqD/8qqr//6Va9V+kCvQfpVr1X6Qa9B+lWvVfKqg//A=="
+    },
+    {
+      "id": "snake",
+      "title": "CyberSnake",
+      "category": "Games",
+      "description": "Classic grid arcade snake",
+      "path": "apps/games/snake.lua",
+      "url": "https://raw.githubusercontent.com/VexisTheFox/cydos_appstore/main/apps/games/snake.lua",
+      "icon_bg": "0x03E0",
+      "icon_b64": "AAAAAAAA//wAAP/+AAD/AAAA/wAAAP/8AAD//wAAAA/wAAAP8AAAD/AA//8AAP/+AAAAAAAAAAAAAAAAAAAAAA=="
+    },
+    {
+      "id": "cybersynth",
+      "title": "CyberSynth",
+      "category": "Media",
+      "description": "8-key FM synthesizer & octaves",
+      "path": "apps/media/cybersynth.lua",
+      "url": "https://raw.githubusercontent.com/VexisTheFox/cydos_appstore/main/apps/media/cybersynth.lua",
+      "icon_bg": "0x4812",
+      "icon_b64": "APAPAAMMMMD8A8A/AAAAAKqqqqpUUVFFVFFRRVRRUUVUUVFFVAFQBVUVVFVVFVRVVRVUVVUVVFWqqqqqAAAAAA=="
+    },
+    {
+      "id": "worldclock",
+      "title": "WorldTime",
+      "category": "Utilities",
+      "description": "Multi-timezone live NTP clock",
+      "path": "apps/utilities/worldclock.lua",
+      "url": "https://raw.githubusercontent.com/VexisTheFox/cydos_appstore/main/apps/utilities/worldclock.lua",
+      "icon_bg": "0x1928",
+      "icon_b64": "ACqoAAKVVoAJQUFgJAPAGCQDwBiQA8AGkAPABpUD/xaVA/8WkAAABpAAAAYkAAAYJAFAGAlBQWAClVaAACqoAA=="
+    },
+    {
+      "id": "stopwatch",
+      "title": "Stopwatch",
+      "category": "Utilities",
+      "description": "Precision stopwatch & lap timer",
+      "path": "apps/utilities/stopwatch.lua",
+      "url": "https://raw.githubusercontent.com/VexisTheFox/cydos_appstore/main/apps/utilities/stopwatch.lua",
+      "icon_bg": "0x6010",
+      "icon_b64": "AA/wAAAP8AAA//8AAB8fAAA4BwAAcAcAAOAHAADgRwAA4EcAAOBPAADgHwAAcAcAAHAHAAD//wAAf/4AAA/wAA=="
+    }
+  ]
+}
