@@ -60,9 +60,7 @@ while true do
                 drawUI()
                 local b, c = http.get("http://ip-api.com/line/?fields=query,country")
                 if b and c == 200 then
-                    pubInfo = string.gsub(b, "[
-
-]+", " ")
+                    pubInfo = string.gsub(b, "[\r\n]+", " ")
                 else
                     pubInfo = "HTTP Err " .. tostring(c)
                 end

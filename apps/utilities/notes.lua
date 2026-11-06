@@ -11,9 +11,7 @@ local function loadNotes()
         local raw = file.read(FILE_PATH)
         if raw and #raw > 0 then
             lines = {}
-            for s in string.gmatch(raw, "[^
-
-]+") do
+            for s in string.gmatch(raw, "[^\r\n]+") do
                 table.insert(lines, s)
             end
         end
