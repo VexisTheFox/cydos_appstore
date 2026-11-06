@@ -1,10 +1,10 @@
 -- @name: NetTools
 -- @bg: 0x0352
--- @icon_b64: ACqoAAKBQoAIJBggIIQSCCIQBIiFV9VShB/0EpVf9VaVX/VWhB/0EoVX1VIiEASIIIQSCAgkGCACgUKAACqoAA==
+-- @icon_b64: B+AZmCJERCJ//4gRiBH//4gRiBF//0QiIkQZmAfgAAA=
 
 local VP_X, VP_Y, VP_W, VP_H = 0, 20, 240, 274
 local r1, r2, r3 = "Not tested", "Not tested", "Not tested"
-local pubInfo = "Tap HTTP IP TEST"
+local pubInfo = "Tap HTTP WAN IP"
 
 local function drawUI()
     gui.fillRect(VP_X, VP_Y, VP_W, VP_H, 0x0821)
@@ -60,7 +60,8 @@ while true do
                 drawUI()
                 local b, c = http.get("http://ip-api.com/line/?fields=query,country")
                 if b and c == 200 then
-                    pubInfo = string.gsub(b, "[\r\n]+", " ")
+                    pubInfo = string.gsub(b, "[
+]+", " ")
                 else
                     pubInfo = "HTTP Err " .. tostring(c)
                 end

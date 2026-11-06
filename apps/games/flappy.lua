@@ -1,6 +1,6 @@
 -- @name: Flappy CYD
 -- @bg: 0x1386
--- @icon_b64: AAAAAAAP/AAA//UAA//WQA9X1kANVfUADVX/qA9X/qoD//+oAP//AAAP8AAAAAAAqqqqqgAAAAAAAAAAAAAAAA==
+-- @icon_b64: A/AMDBOKJE5HyEAPOBEH7wAAMAwwDDGMMYwxjP//AAA=
 
 local VP_X, VP_Y, VP_W, VP_H = 0, 20, 240, 274
 local birdY, birdV = 140, 0

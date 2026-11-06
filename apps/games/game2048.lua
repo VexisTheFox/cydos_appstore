@@ -1,6 +1,6 @@
 -- @name: 2048 Game
 -- @bg: 0x5180
--- @icon_b64: P/wqqP//qqr1X6Qa8B+kGvVfpVr0D6Aa9V+gGj/8KqgqqD/8qqr//6Va9V+kCvQfpVr1X6Qa9B+lWvVfKqg//A==
+-- @icon_b64: /n+CQbpVilW6XaJF/n8AAP5/gkGqXbpdil2CQf5/AAA=
 
 local VP_X, VP_Y, VP_W, VP_H = 0, 20, 240, 274
 local grid = {{0,0,0,0},{0,0,0,0},{0,0,0,0},{0,0,0,0}}
@@ -31,7 +31,7 @@ local function drawBoard()
             gui.fillRect(x, y, 50, 44, bg)
             gui.drawRect(x, y, 50, 44, 0x3186)
             if v > 0 then
-                gui.drawText(x + 12, y + 14, tostring(v), 0xFFFF, 2)
+                gui.drawText(x + 10, y + 14, tostring(v), 0xFFFF, 2)
             end
         end
     end

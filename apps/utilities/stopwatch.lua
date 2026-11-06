@@ -1,6 +1,6 @@
 -- @name: Stopwatch
 -- @bg: 0x6010
--- @icon_b64: AA/wAAAP8AAA//8AAB8fAAA4BwAAcAcAAOAHAADgRwAA4EcAAOBPAADgHwAAcAcAAHAHAAD//wAAf/4AAA/wAA==
+-- @icon_b64: B+ABgDfsf/5wDsGDwYPBg8HjwAPAA3AOf/4f+AfgAAA=
 
 local VP_X, VP_Y, VP_W, VP_H = 0, 20, 240, 274
 local running = false

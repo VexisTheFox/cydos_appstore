@@ -1,26 +1,31 @@
 {
   "store_name": "CYD OS Official App Store",
   "repository": "https://github.com/VexisTheFox/cydos_appstore",
+  "total_apps": 24,
   "categories": [
     {
       "id": "internet",
-      "name": "Internet & Network",
-      "folder": "apps/internet"
+      "name": "Internet & Cloud",
+      "folder": "apps/internet",
+      "count": 6
     },
     {
       "id": "games",
       "name": "Games & Arcade",
-      "folder": "apps/games"
+      "folder": "apps/games",
+      "count": 6
     },
     {
       "id": "media",
-      "name": "Audio & Media",
-      "folder": "apps/media"
+      "name": "Audio, Light & Media",
+      "folder": "apps/media",
+      "count": 5
     },
     {
       "id": "utilities",
       "name": "System & Utilities",
-      "folder": "apps/utilities"
+      "folder": "apps/utilities",
+      "count": 7
     }
   ],
   "apps": [
@@ -28,81 +33,265 @@
       "id": "weather",
       "title": "Weather",
       "category": "Internet",
+      "badge": "NET",
       "description": "Open-Meteo live temp & wind",
       "path": "apps/internet/weather.lua",
       "url": "https://raw.githubusercontent.com/VexisTheFox/cydos_appstore/main/apps/internet/weather.lua",
       "icon_bg": "0x0276",
-      "icon_b64": "APDwAAw/wwAD//wAP/9VAAP1VVAPVVVUAVVVVQVVVVUFVVVVAVVVVAAAAAAAoKCgAoKCgAKCgoAAAAAAAAAAAA=="
+      "icon_b64": "A8AP8B/4P/x//n/+P/wAACIiREQAABEQIiAAAAAAAAA="
     },
     {
       "id": "nettools",
       "title": "NetTools",
       "category": "Internet",
+      "badge": "NET",
       "description": "TCP Ping, WAN IP & NTP test",
       "path": "apps/internet/nettools.lua",
       "url": "https://raw.githubusercontent.com/VexisTheFox/cydos_appstore/main/apps/internet/nettools.lua",
       "icon_bg": "0x0352",
-      "icon_b64": "ACqoAAKBQoAIJBggIIQSCCIQBIiFV9VShB/0EpVf9VaVX/VWhB/0EoVX1VIiEASIIIQSCAgkGCACgUKAACqoAA=="
+      "icon_b64": "B+AZmCJERCJ//4gRiBH//4gRiBF//0QiIkQZmAfgAAA="
+    },
+    {
+      "id": "crypto",
+      "title": "CryptoTick",
+      "category": "Internet",
+      "badge": "NET",
+      "description": "Live BTC, ETH & SOL USD prices",
+      "path": "apps/internet/crypto.lua",
+      "url": "https://raw.githubusercontent.com/VexisTheFox/cydos_appstore/main/apps/internet/crypto.lua",
+      "icon_bg": "0x8400",
+      "icon_b64": "BmAGYB/wGBgYGBgwH+Af8BgYGAwYDBgYH/AGYAZgAAA="
+    },
+    {
+      "id": "iss",
+      "title": "ISS Orbit",
+      "category": "Internet",
+      "badge": "NET",
+      "description": "Live ISS space radar tracker",
+      "path": "apps/internet/iss.lua",
+      "url": "https://raw.githubusercontent.com/VexisTheFox/cydos_appstore/main/apps/internet/iss.lua",
+      "icon_bg": "0x1928",
+      "icon_b64": "4AfgB+PH5+fud///7nfn5+PH4YfgB+AHA8AP8DgcAAA="
+    },
+    {
+      "id": "wifiradar",
+      "title": "WiFi Radar",
+      "category": "Internet",
+      "badge": "NET",
+      "description": "Live RSSI graph & AP scanner",
+      "path": "apps/internet/wifiradar.lua",
+      "url": "https://raw.githubusercontent.com/VexisTheFox/cydos_appstore/main/apps/internet/wifiradar.lua",
+      "icon_bg": "0x04D3",
+      "icon_b64": "D/A4HGAGh+EMMBAII8QGYAgQAYADwAPAAYAAAD/8AAA="
+    },
+    {
+      "id": "quotefetch",
+      "title": "TechQuotes",
+      "category": "Internet",
+      "badge": "NET",
+      "description": "Cloud wisdom & Flash bookmark",
+      "path": "apps/internet/quotefetch.lua",
+      "url": "https://raw.githubusercontent.com/VexisTheFox/cydos_appstore/main/apps/internet/quotefetch.lua",
+      "icon_bg": "0x4812",
+      "icon_b64": "P/x//sAD3DvcO8wb0CPAA9/73+PAA3/+Pn4GwAcAAAA="
     },
     {
       "id": "flappy",
       "title": "Flappy CYD",
       "category": "Games",
+      "badge": "GAMES",
       "description": "Smooth 35 FPS arcade game",
       "path": "apps/games/flappy.lua",
       "url": "https://raw.githubusercontent.com/VexisTheFox/cydos_appstore/main/apps/games/flappy.lua",
       "icon_bg": "0x1386",
-      "icon_b64": "AAAAAAAP/AAA//UAA//WQA9X1kANVfUADVX/qA9X/qoD//+oAP//AAAP8AAAAAAAqqqqqgAAAAAAAAAAAAAAAA=="
+      "icon_b64": "A/AMDBOKJE5HyEAPOBEH7wAAMAwwDDGMMYwxjP//AAA="
     },
     {
       "id": "game2048",
       "title": "2048 Game",
       "category": "Games",
+      "badge": "GAMES",
       "description": "Classic 4x4 2048 tile puzzle",
       "path": "apps/games/game2048.lua",
       "url": "https://raw.githubusercontent.com/VexisTheFox/cydos_appstore/main/apps/games/game2048.lua",
       "icon_bg": "0x5180",
-      "icon_b64": "P/wqqP//qqr1X6Qa8B+kGvVfpVr0D6Aa9V+gGj/8KqgqqD/8qqr//6Va9V+kCvQfpVr1X6Qa9B+lWvVfKqg//A=="
+      "icon_b64": "/n+CQbpVilW6XaJF/n8AAP5/gkGqXbpdil2CQf5/AAA="
     },
     {
       "id": "snake",
       "title": "CyberSnake",
       "category": "Games",
+      "badge": "GAMES",
       "description": "Classic grid arcade snake",
       "path": "apps/games/snake.lua",
       "url": "https://raw.githubusercontent.com/VexisTheFox/cydos_appstore/main/apps/games/snake.lua",
       "icon_bg": "0x03E0",
-      "icon_b64": "AAAAAAAA//wAAP/+AAD/AAAA/wAAAP/8AAD//wAAAA/wAAAP8AAAD/AA//8AAP/+AAAAAAAAAAAAAAAAAAAAAA=="
+      "icon_b64": "P/B/+GAYb/g/4ABwH/A/4DAAP/Af8AAwD/AP8AAMAAw="
+    },
+    {
+      "id": "breakout",
+      "title": "BrickBreak",
+      "category": "Games",
+      "badge": "GAMES",
+      "description": "Touch paddle Arkanoid arcade",
+      "path": "apps/games/breakout.lua",
+      "url": "https://raw.githubusercontent.com/VexisTheFox/cydos_appstore/main/apps/games/breakout.lua",
+      "icon_bg": "0x9008",
+      "icon_b64": "73vvewAA93v3ewAA73sAAAGAA8ABgAAAAAAf+D/8AAA="
+    },
+    {
+      "id": "mines",
+      "title": "Minesweep",
+      "category": "Games",
+      "badge": "GAMES",
+      "description": "7x7 touch Minesweeper puzzle",
+      "path": "apps/games/mines.lua",
+      "url": "https://raw.githubusercontent.com/VexisTheFox/cydos_appstore/main/apps/games/mines.lua",
+      "icon_bg": "0x3186",
+      "icon_b64": "AYAhhBGID/Af+B24PDz8P/w/P/wf+B/4D/ARiCGEAYA="
+    },
+    {
+      "id": "memory",
+      "title": "MemMatrix",
+      "category": "Games",
+      "badge": "GAMES",
+      "description": "Audio-visual memory trainer",
+      "path": "apps/games/memory.lua",
+      "url": "https://raw.githubusercontent.com/VexisTheFox/cydos_appstore/main/apps/games/memory.lua",
+      "icon_bg": "0x4010",
+      "icon_b64": "fn5+fmZ+Zn5+fn5+AAAAAH5+fn5+Zn5mfn5+fgAAAAA="
     },
     {
       "id": "cybersynth",
       "title": "CyberSynth",
       "category": "Media",
+      "badge": "MEDIA",
       "description": "8-key FM synthesizer & octaves",
       "path": "apps/media/cybersynth.lua",
       "url": "https://raw.githubusercontent.com/VexisTheFox/cydos_appstore/main/apps/media/cybersynth.lua",
       "icon_bg": "0x4812",
-      "icon_b64": "APAPAAMMMMD8A8A/AAAAAKqqqqpUUVFFVFFRRVRRUUVUUVFFVAFQBVUVVFVVFVRVVRVUVVUVVFWqqqqqAAAAAA=="
+      "icon_b64": "f/5JkkmSSZJJkkmSSZJdul26RCJEIkQiRCJ//gAAAAA="
+    },
+    {
+      "id": "drumseq",
+      "title": "BeatBox 8",
+      "category": "Media",
+      "badge": "MEDIA",
+      "description": "4-track x 8-step drum machine",
+      "path": "apps/media/drumseq.lua",
+      "url": "https://raw.githubusercontent.com/VexisTheFox/cydos_appstore/main/apps/media/drumseq.lua",
+      "icon_bg": "0x580F",
+      "icon_b64": "7u7u7u7uAADg4ODg4OAAAA4ODg4ODgAA7u7u7u7uAAA="
+    },
+    {
+      "id": "rgbstudio",
+      "title": "RGB Studio",
+      "category": "Media",
+      "badge": "MEDIA",
+      "description": "RGB LED & backlight controller",
+      "path": "apps/media/rgbstudio.lua",
+      "url": "https://raw.githubusercontent.com/VexisTheFox/cydos_appstore/main/apps/media/rgbstudio.lua",
+      "icon_bg": "0x8010",
+      "icon_b64": "B+Af+D/8f/55nnGOeZ4//B/4D/AH4AfgA8AH4APAAAA="
+    },
+    {
+      "id": "luxmeter",
+      "title": "LuxScope",
+      "category": "Media",
+      "badge": "MEDIA",
+      "description": "LDR light sensor oscilloscope",
+      "path": "apps/media/luxmeter.lua",
+      "url": "https://raw.githubusercontent.com/VexisTheFox/cydos_appstore/main/apps/media/luxmeter.lua",
+      "icon_bg": "0x5280",
+      "icon_b64": "AYAhhBAIB+AP8Bw4GBjoF+gXGBgcOA/wB+AQCCGEAYA="
+    },
+    {
+      "id": "metronome",
+      "title": "Metronome",
+      "category": "Media",
+      "badge": "MEDIA",
+      "description": "Studio BPM & time sig click",
+      "path": "apps/media/metronome.lua",
+      "url": "https://raw.githubusercontent.com/VexisTheFox/cydos_appstore/main/apps/media/metronome.lua",
+      "icon_bg": "0x3812",
+      "icon_b64": "A8AH4AZgDDANMBiYGJgwTDDsYOZgRv////9//gAAAAA="
     },
     {
       "id": "worldclock",
       "title": "WorldTime",
       "category": "Utilities",
+      "badge": "TOOLS",
       "description": "Multi-timezone live NTP clock",
       "path": "apps/utilities/worldclock.lua",
       "url": "https://raw.githubusercontent.com/VexisTheFox/cydos_appstore/main/apps/utilities/worldclock.lua",
       "icon_bg": "0x1928",
-      "icon_b64": "ACqoAAKVVoAJQUFgJAPAGCQDwBiQA8AGkAPABpUD/xaVA/8WkAAABpAAAAYkAAAYJAFAGAlBQWAClVaAACqoAA=="
+      "icon_b64": "D/A//HAOYYbBg8GDwYPB88HzwAPAA2AGcA4//A/wAAA="
     },
     {
       "id": "stopwatch",
       "title": "Stopwatch",
       "category": "Utilities",
-      "description": "Precision stopwatch & lap timer",
+      "badge": "TOOLS",
+      "description": "Precision 1/10s lap timer",
       "path": "apps/utilities/stopwatch.lua",
       "url": "https://raw.githubusercontent.com/VexisTheFox/cydos_appstore/main/apps/utilities/stopwatch.lua",
       "icon_bg": "0x6010",
-      "icon_b64": "AA/wAAAP8AAA//8AAB8fAAA4BwAAcAcAAOAHAADgRwAA4EcAAOBPAADgHwAAcAcAAHAHAAD//wAAf/4AAA/wAA=="
+      "icon_b64": "B+ABgDfsf/5wDsGDwYPBg8HjwAPAA3AOf/4f+AfgAAA="
+    },
+    {
+      "id": "pomodoro",
+      "title": "Pomodoro",
+      "category": "Utilities",
+      "badge": "TOOLS",
+      "description": "25m focus / 5m break timer",
+      "path": "apps/utilities/pomodoro.lua",
+      "url": "https://raw.githubusercontent.com/VexisTheFox/cydos_appstore/main/apps/utilities/pomodoro.lua",
+      "icon_bg": "0x9000",
+      "icon_b64": "DbAH4B/4P/x//n5+/n/+f/7//39//n/+P/wf+AfgAAA="
+    },
+    {
+      "id": "unitconv",
+      "title": "UnitConv",
+      "category": "Utilities",
+      "badge": "TOOLS",
+      "description": "Engineering unit converter",
+      "path": "apps/utilities/unitconv.lua",
+      "url": "https://raw.githubusercontent.com/VexisTheFox/cydos_appstore/main/apps/utilities/unitconv.lua",
+      "icon_bg": "0x0451",
+      "icon_b64": "CAAYAD/8f/wwABAAAAAACAAYP/4//AAYAAgAAP//kkk="
+    },
+    {
+      "id": "resistor",
+      "title": "OhmCalc",
+      "category": "Utilities",
+      "badge": "TOOLS",
+      "description": "4-band resistor color decoder",
+      "path": "apps/utilities/resistor.lua",
+      "url": "https://raw.githubusercontent.com/VexisTheFox/cydos_appstore/main/apps/utilities/resistor.lua",
+      "icon_bg": "0x4208",
+      "icon_b64": "AAAAAAAAAAAf+D/8Ntz23/bfNtw//B/4AAAAAAAAAAA="
+    },
+    {
+      "id": "notes",
+      "title": "QuickNotes",
+      "category": "Utilities",
+      "badge": "TOOLS",
+      "description": "Persistent Flash QWERTY memo",
+      "path": "apps/utilities/notes.lua",
+      "url": "https://raw.githubusercontent.com/VexisTheFox/cydos_appstore/main/apps/utilities/notes.lua",
+      "icon_bg": "0x2C9F",
+      "icon_b64": "P/w//DAMN+wwDDfsMAw37DAMN4wwDD/8P/wAAAAAAAA="
+    },
+    {
+      "id": "passgen",
+      "title": "PassVault",
+      "category": "Utilities",
+      "badge": "TOOLS",
+      "description": "Password & PIN key generator",
+      "path": "apps/utilities/passgen.lua",
+      "url": "https://raw.githubusercontent.com/VexisTheFox/cydos_appstore/main/apps/utilities/passgen.lua",
+      "icon_bg": "0x0352",
+      "icon_b64": "B+AP8BgYGBgYGBgYf/5//n5+fD5+fn5+f/4//AAAAAA="
     }
   ]
 }

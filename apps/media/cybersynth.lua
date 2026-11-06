@@ -1,6 +1,6 @@
 -- @name: CyberSynth
 -- @bg: 0x4812
--- @icon_b64: APAPAAMMMMD8A8A/AAAAAKqqqqpUUVFFVFFRRVRRUUVUUVFFVAFQBVUVVFVVFVRVVRVUVVUVVFWqqqqqAAAAAA==
+-- @icon_b64: f/5JkkmSSZJJkkmSSZJdul26RCJEIkQiRCJ//gAAAAA=
 
 local VP_X, VP_Y, VP_W, VP_H = 0, 20, 240, 274
 local notes = {

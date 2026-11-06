@@ -1,9 +1,8 @@
 -- @name: WorldTime
 -- @bg: 0x1928
--- @icon_b64: ACqoAAKVVoAJQUFgJAPAGCQDwBiQA8AGkAPABpUD/xaVA/8WkAAABpAAAAYkAAAYJAFAGAlBQWAClVaAACqoAA==
+-- @icon_b64: D/A//HAOYYbBg8GDwYPB88HzwAPAA2AGcA4//A/wAAA=
 
 local VP_X, VP_Y, VP_W, VP_H = 0, 20, 240, 274
-local ICON_B64 = "ACqoAAKVVoAJQUFgJAPAGCQDwBiQA8AGkAPABpUD/xaVA/8WkAAABpAAAAYkAAAYJAFAGAlBQWAClVaAACqoAA=="
 
 local function fmtZone(epoch, offsetHours)
     local z = epoch + offsetHours * 3600
@@ -16,8 +15,7 @@ end
 gui.fillRect(VP_X, VP_Y, VP_W, VP_H, 0x0821)
 gui.fillRect(VP_X, VP_Y, VP_W, 24, 0x1928)
 gui.drawFastHLine(VP_X, VP_Y + 24, VP_W, 0x07FF)
-if gui.drawBase64 then gui.drawBase64(14, VP_Y + 12, ICON_B64, 1, 0xFFE0) end
-gui.drawText(28, VP_Y + 8, "NTP WORLD CLOCK", 0xFFFF, 1)
+gui.drawText(8, VP_Y + 8, "NTP WORLD CLOCK", 0xFFFF, 1)
 
 gui.fillRect(20, VP_Y + 224, 200, 38, 0x04D3)
 gui.drawRect(20, VP_Y + 224, 200, 38, 0x07FF)

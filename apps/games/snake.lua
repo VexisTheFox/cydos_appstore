@@ -1,6 +1,6 @@
 -- @name: CyberSnake
 -- @bg: 0x03E0
--- @icon_b64: AAAAAAAA//wAAP/+AAD/AAAA/wAAAP/8AAD//wAAAA/wAAAP8AAAD/AA//8AAP/+AAAAAAAAAAAAAAAAAAAAAA==
+-- @icon_b64: P/B/+GAYb/g/4ABwH/A/4DAAP/Af8AAwD/AP8AAMAAw=
 
 local VP_X, VP_Y, VP_W, VP_H = 0, 20, 240, 274
 local CELL = 10
